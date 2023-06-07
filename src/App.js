@@ -1,20 +1,23 @@
-
 import './App.css';
+import Employee from './components/Employee';
 
 function App() {
+  console.log("We are about o list the employees");
+  const showEmployees = true;
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Hello, Word! Here we are testing GIT!
-        </p>
-        <a>
-          
-        Hello there!
-          
-        </a>
-      </header>
+      {showEmployees ?
+          <>
+          <Employee/>
+          <Employee/>
+          <Employee/>
+          <Employee/>
+          <Employee/>
+          <Employee/>
+          </>    
+      : 
+        <p>You cannot see the employees</p>
+          }  
     </div>
   );
 }
