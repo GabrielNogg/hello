@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         
         <p>
-          Hello, Word!
+          Hello, Word! Here we are testing GIT!
         </p>
         <a>
           
